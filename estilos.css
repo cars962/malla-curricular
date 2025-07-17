@@ -1,125 +1,40 @@
 body {
-  font-family: 'Segoe UI', Arial, sans-serif;
-  background: linear-gradient(120deg, #f6f1f5 0%, #f1faee 100%);
-  margin: 0;
-  padding: 0;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f0faff;
 }
 
-h1, h2 {
-  color: #7c8391;
+h1 {
   text-align: center;
-  margin-top: 24px;
+  color: #007acc;
 }
 
-.malla-container {
-  max-width: 1100px;
-  margin: 40px auto;
-  padding: 24px;
-  background: #f9fafb;
-  border-radius: 18px;
-  box-shadow: 0 2px 24px rgba(180, 180, 180, 0.13);
+.anio h2 {
+  color: #005c99;
+  margin-top: 30px;
 }
 
-.semestre {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 18px;
-  margin-bottom: 36px;
-  justify-content: center;
+.semestre h3 {
+  margin: 10px 0;
 }
 
-.semestre-title {
-  flex-basis: 100%;
-  font-weight: bold;
-  font-size: 1.3em;
-  color: #a48bb9;
-  margin-bottom: 12px;
-}
-
-.ramo {
-  background: #e2eafc;
-  border: 2px solid #cddafd;
-  border-radius: 12px;
-  padding: 18px 12px;
-  min-width: 175px;
-  min-height: 90px;
-  text-align: center;
-  position: relative;
-  box-shadow: 0 1px 9px rgba(140, 140, 140, 0.09);
-  transition: transform 0.08s, box-shadow 0.08s;
+button.ramo {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #87cefa;
+  color: white;
   cursor: pointer;
-  user-select: none;
-  margin-bottom: 10px;
-  opacity: 0.7;
-  filter: grayscale(1);
 }
 
-.ramo.unlocked {
-  opacity: 1;
-  filter: none;
-  background: #ffecd2;
-  border-color: #d6c7ae;
-}
-
-.ramo.approved {
-  background: #c6e2e9;
-  border-color: #a6dcef;
-  box-shadow: 0 2px 12px #b3e2e6;
-  color: #9953f5;
-  font-weight: bold;
-}
-
-.ramo .nombre {
-  font-size: 1.07em;
-  margin-bottom: 4px;
-  color: #32aafa;
-}
-
-.ramo .estado {
-  font-size: 0.92em;
-  color: #4093f7;
-  margin-top: 2px;
-}
-
-.ramo.locked {
+button.ramo.bloqueado {
+  background-color: #ccc;
   cursor: not-allowed;
-  opacity: 0.4;
-  filter: grayscale(0.6);
-  background: #f5f5f5;
-  border-color: #4ba2fa;
 }
 
-.ramo.unlocked:hover {
-  transform: scale(1.04);
-  box-shadow: 0 3px 22px #e8cfcf;
-}
-
-.ramo.approved:after {
-  content: "✔";
-  position: absolute;
-  top: 8px;
-  right: 14px;
-  font-size: 1.7em;
-  color: #6987f0;
-}
-
-.guia {
-  text-align: center;
-  margin-bottom: 25px;
-  font-size: 1em;
-  color: #6d7c99;
-}
-
-@media screen and (max-width: 900px) {
-  .malla-container {
-    padding: 8px;
-  }
-  .semestre {
-    gap: 8px;
-  }
-  .ramo {
-    min-width: 130px;
-    font-size: 0.95em;
-    padding: 10px 5px;
-  }
+button.ramo.aprobado {
+  background-color: #b2ebf2 !important;
+  color: #333;
 }
