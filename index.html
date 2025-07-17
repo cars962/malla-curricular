@@ -9,63 +9,93 @@
 <body>
   <h1>Malla Curricular Interactiva - Carrera de Farmacia</h1>
   <div class="malla">
-    <button class="ramo" id="matematica" data-unlocks="estadistica">Matemática</button>
-    <button class="ramo" id="fisica" data-unlocks="fisicoquimica">Física</button>
-    <button class="ramo" id="quimica_general" data-unlocks="quimica_inorganica,quimica_organica1">Química General</button>
-    <button class="ramo" id="biologia" data-unlocks="fisiologia,genetica,enzimologia">Biología</button>
-    <button class="ramo" id="expresion">Expresión Oral y Escrita</button>
-    <button class="ramo" id="ingles1" data-unlocks="ingles2">Inglés Técnico I</button>
-    <button class="ramo bloqueado" id="quimica_inorganica" data-unlocks="quimica_analitica_cualitativa">Química Inorgánica</button>
-    <button class="ramo bloqueado" id="quimica_organica1" data-unlocks="quimica_organica2">Química Orgánica I</button>
-    <button class="ramo bloqueado" id="botanica" data-unlocks="farmacognosia1">Botánica</button>
-    <button class="ramo bloqueado" id="anatomia">Anatomía Humana</button>
-    <button class="ramo bloqueado" id="estadistica" data-unlocks="salud,investigacion">Estadísticas</button>
-    <button class="ramo bloqueado" id="ingles2">Inglés Técnico II</button>
-    <button class="ramo bloqueado" id="fisicoquimica">Fisicoquímica</button>
-    <button class="ramo bloqueado" id="quimica_organica2">Química Orgánica II</button>
-    <button class="ramo bloqueado" id="quimica_analitica_cualitativa" data-unlocks="quimica_analitica_cuantitativa">Q. Analítica Cualitativa</button>
-    <button class="ramo bloqueado" id="fisiologia" data-unlocks="fisiopatologia">Fisiología</button>
-    <button class="ramo bloqueado" id="salud">Salud Pública e Interculturalidad</button>
-    <button class="ramo bloqueado" id="investigacion">Metodología de la Investigación</button>
-    <button class="ramo bloqueado" id="quimica_analitica_cuantitativa" data-unlocks="bioquimica1">Q. Analítica Cuantitativa</button>
-    <button class="ramo bloqueado" id="genetica">Genética</button>
-    <button class="ramo bloqueado" id="farmacognosia1" data-unlocks="farmacognosia2">Farmacognosia I</button>
-    <button class="ramo bloqueado" id="fisiopatologia" data-unlocks="inmunologia">Fisiopatología</button>
-    <button class="ramo bloqueado" id="enzimologia" data-unlocks="micro_industrial">Enzimología</button>
-    <button class="ramo bloqueado" id="micro1" data-unlocks="micro2">Microbiología I</button>
-    <button class="ramo bloqueado" id="bioquimica1" data-unlocks="bioquimica2">Bioquímica I</button>
-    <button class="ramo bloqueado" id="farmacognosia2" data-unlocks="farmacologia1">Farmacognosia II</button>
-    <button class="ramo bloqueado" id="bromatologia">Bromatología</button>
-    <button class="ramo bloqueado" id="instrumental">Análisis Instrumental</button>
-    <button class="ramo bloqueado" id="inmunologia">Inmunología</button>
-    <button class="ramo bloqueado" id="micro2">Microbiología II</button>
-    <button class="ramo bloqueado" id="bioquimica2" data-unlocks="nutricion">Bioquímica II</button>
-    <button class="ramo bloqueado" id="hematologia1" data-unlocks="hematologia2">Hematología I</button>
-    <button class="ramo bloqueado" id="parasito1" data-unlocks="parasito2">Parasitología I</button>
-    <button class="ramo bloqueado" id="citologia">Citología</button>
-    <button class="ramo bloqueado" id="farmacologia1" data-unlocks="toxico1,tec_far1,farmacologia2">Farmacología I</button>
-    <button class="ramo bloqueado" id="toxico1" data-unlocks="toxico2">Toxicología I</button>
-    <button class="ramo bloqueado" id="nutricion">Nutrición</button>
-    <button class="ramo bloqueado" id="hematologia2" data-unlocks="analisis1">Hematología II</button>
-    <button class="ramo bloqueado" id="parasito2">Parasitología II</button>
-    <button class="ramo bloqueado" id="tec_far1" data-unlocks="control1">Tecnología Farmacéutica I</button>
-    <button class="ramo bloqueado" id="farmacologia2" data-unlocks="electiva,clinica">Farmacología II</button>
-    <button class="ramo bloqueado" id="micro_industrial">Microbiología Industrial</button>
-    <button class="ramo bloqueado" id="toxico2">Toxicología II</button>
-    <button class="ramo bloqueado" id="analisis1" data-unlocks="analisis2">Análisis Clínico I</button>
-    <button class="ramo bloqueado" id="control1" data-unlocks="control2">Control de Medicamentos I</button>
-    <button class="ramo bloqueado" id="molecular">Biología Molecular</button>
-    <button class="ramo bloqueado" id="tec_far2">Tecnología Farmacéutica II</button>
-    <button class="ramo bloqueado" id="electiva">Electiva</button>
-    <button class="ramo bloqueado" id="clinica" data-unlocks="internado">Farmacia Clínica</button>
-    <button class="ramo bloqueado" id="analisis2" data-unlocks="internado">Análisis Clínico II</button>
-    <button class="ramo bloqueado" id="control2" data-unlocks="internado">Control de Medicamentos II</button>
-    <button class="ramo bloqueado" id="deontologia" data-unlocks="internado">Deontología y Legislación</button>
-    <button class="ramo bloqueado" id="gestion" data-unlocks="internado">Gestión y Administración</button>
-    <button class="ramo bloqueado" id="practica" data-unlocks="internado">Práctica Profesional</button>
-    <button class="ramo bloqueado" id="internado">Internado Rotatorio Evaluado</button>
-    <button class="ramo bloqueado" id="laboratorio">Laboratorio</button>
-    <button class="ramo bloqueado" id="farmacia">Farmacia</button>
+    <div class="anio">
+      <h2>Primer Año</h2>
+      <div class="semestre">
+        <h3>Primer Semestre</h3>
+        <button class="ramo" id="matematica" data-unlocks="estadistica">Matemática</button>
+        <button class="ramo" id="fisica" data-unlocks="fisicoquimica">Física</button>
+        <button class="ramo" id="quimica_general" data-unlocks="quimica_inorganica,quimica_organica1">Química General</button>
+        <button class="ramo" id="biologia" data-unlocks="fisiologia,genetica,enzimologia">Biología</button>
+        <button class="ramo" id="expresion">Expresión Oral y Escrita</button>
+        <button class="ramo" id="ingles1" data-unlocks="ingles2">Inglés Técnico I</button>
+      <div class="semestre">
+        <h3>Segundo Semestre</h3> 
+        <button class="ramo bloqueado" id="quimica_inorganica" data-unlocks="quimica_analitica_cualitativa">Química Inorgánica</button>
+        <button class="ramo bloqueado" id="quimica_organica1" data-unlocks="quimica_organica2">Química Orgánica I</button>
+        <button class="ramo bloqueado" id="botanica" data-unlocks="farmacognosia1">Botánica</button>
+        <button class="ramo bloqueado" id="anatomia">Anatomía Humana</button>
+        <button class="ramo bloqueado" id="estadistica" data-unlocks="salud,investigacion">Estadísticas</button>
+        <button class="ramo bloqueado" id="ingles2">Inglés Técnico II</button>
+    <div class="anio">
+      <h2>Segundo Año</h2>
+      <div class="semestre">
+        <h3>Tercer Semestre</h3>
+        <button class="ramo bloqueado" id="fisicoquimica">Fisicoquímica</button>
+        <button class="ramo bloqueado" id="quimica_organica2">Química Orgánica II</button>
+        <button class="ramo bloqueado" id="quimica_analitica_cualitativa" data-unlocks="quimica_analitica_cuantitativa">Q. Analítica Cualitativa</button>
+        <button class="ramo bloqueado" id="fisiologia" data-unlocks="fisiopatologia">Fisiología</button>
+        <button class="ramo bloqueado" id="salud">Salud Pública e Interculturalidad</button>
+        <button class="ramo bloqueado" id="investigacion">Metodología de la Investigación</button>
+      <div class="semestre">
+      <h3>Cuarto Semestre</h3>
+        <button class="ramo bloqueado" id="quimica_analitica_cuantitativa" data-unlocks="bioquimica1">Q. Analítica Cuantitativa</button>
+        <button class="ramo bloqueado" id="genetica">Genética</button>
+        <button class="ramo bloqueado" id="farmacognosia1" data-unlocks="farmacognosia2">Farmacognosia I</button>
+        <button class="ramo bloqueado" id="fisiopatologia" data-unlocks="inmunologia">Fisiopatología</button>
+        <button class="ramo bloqueado" id="enzimologia" data-unlocks="micro_industrial">Enzimología</button>
+    <div class="anio">
+      <h2>Tercer Año</h2>
+      <div class="semestre">
+        <h3>Quinto Semestre</h3>        
+        <button class="ramo bloqueado" id="micro1" data-unlocks="micro2">Microbiología I</button>
+        <button class="ramo bloqueado" id="bioquimica1" data-unlocks="bioquimica2">Bioquímica I</button>
+        <button class="ramo bloqueado" id="farmacognosia2" data-unlocks="farmacologia1">Farmacognosia II</button>
+        <button class="ramo bloqueado" id="bromatologia">Bromatología</button>
+        <button class="ramo bloqueado" id="instrumental">Análisis Instrumental</button>
+        <button class="ramo bloqueado" id="inmunologia">Inmunología</button>
+      <div class="semestre">
+        <h3>Sexto Semestre</h3>        
+        <button class="ramo bloqueado" id="micro2">Microbiología II</button>
+        <button class="ramo bloqueado" id="bioquimica2" data-unlocks="nutricion">Bioquímica II</button>
+        <button class="ramo bloqueado" id="hematologia1" data-unlocks="hematologia2">Hematología I</button>
+        <button class="ramo bloqueado" id="parasito1" data-unlocks="parasito2">Parasitología I</button>
+        <button class="ramo bloqueado" id="citologia">Citología</button>
+    <div class="anio">
+      <h2>Cuarto Año</h2>
+      <div class="semestre">
+        <h3>Septimo Semestre</h3>            
+        <button class="ramo bloqueado" id="farmacologia1" data-unlocks="toxico1,tec_far1,farmacologia2">Farmacología I</button>
+        <button class="ramo bloqueado" id="toxico1" data-unlocks="toxico2">Toxicología I</button>
+        <button class="ramo bloqueado" id="nutricion">Nutrición</button>
+        <button class="ramo bloqueado" id="hematologia2" data-unlocks="analisis1">Hematología II</button>
+        <button class="ramo bloqueado" id="parasito2">Parasitología II</button>
+        <button class="ramo bloqueado" id="tec_far1" data-unlocks="control1">Tecnología Farmacéutica I</button>
+        <button class="ramo bloqueado" id="farmacologia2" data-unlocks="electiva,clinica">Farmacología II</button>
+        <button class="ramo bloqueado" id="micro_industrial">Microbiología Industrial</button>
+      <div class="semestre">
+        <h3>Octavo Semestre</h3>  
+        <button class="ramo bloqueado" id="toxico2">Toxicología II</button>
+        <button class="ramo bloqueado" id="analisis1" data-unlocks="analisis2">Análisis Clínico I</button>
+        <button class="ramo bloqueado" id="control1" data-unlocks="control2">Control de Medicamentos I</button>
+        <button class="ramo bloqueado" id="molecular">Biología Molecular</button>
+        <button class="ramo bloqueado" id="tec_far2">Tecnología Farmacéutica II</button>
+        <button class="ramo bloqueado" id="electiva">Electiva</button>
+    <div class="anio">
+      <h2>Quinto Año</h2>
+      <div class="semestre">
+        <h3>Noveno Semestre</h3>
+        <button class="ramo bloqueado" id="clinica" data-unlocks="internado">Farmacia Clínica</button>
+        <button class="ramo bloqueado" id="analisis2" data-unlocks="internado">Análisis Clínico II</button>
+        <button class="ramo bloqueado" id="control2" data-unlocks="internado">Control de Medicamentos II</button>
+        <button class="ramo bloqueado" id="deontologia" data-unlocks="internado">Deontología y Legislación</button>
+        <button class="ramo bloqueado" id="gestion" data-unlocks="internado">Gestión y Administración</button>
+        <button class="ramo bloqueado" id="practica" data-unlocks="internado">Práctica Profesional</button>
+      <div class="semestre">
+        <h3>Septimo Semestre</h3>
+        <button class="ramo bloqueado" id="internado">Internado Rotatorio Evaluado</button>
+        <button class="ramo bloqueado" id="laboratorio">Laboratorio</button>
+        <button class="ramo bloqueado" id="farmacia">Farmacia</button>
   </div>
   <script src="script.js"></script>
 </body>
