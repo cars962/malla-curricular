@@ -40,6 +40,32 @@ h1 {
   cursor: not-allowed;
   text-decoration: line-through;
 }
+.anio {
+  margin-bottom: 40px;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 20px;
+}
+
+.anio h2 {
+  color: #b7410e;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.semestre {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.semestre h3 {
+  font-size: 1.2em;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.malla .ramo {
+  margin: 5px;
+}
 
 .ramo.aprobado {
   background-color: #2e8b57;
