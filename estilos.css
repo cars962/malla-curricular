@@ -65,19 +65,19 @@ h1, h2 {
   background: #c6e2e9;
   border-color: #a6dcef;
   box-shadow: 0 2px 12px #b3e2e6;
-  color: #437c90;
+  color: #9953f5;
   font-weight: bold;
 }
 
 .ramo .nombre {
   font-size: 1.07em;
   margin-bottom: 4px;
-  color: #6b6d7c;
+  color: #32aafa;
 }
 
 .ramo .estado {
   font-size: 0.92em;
-  color: #b48bb9;
+  color: #4093f7;
   margin-top: 2px;
 }
 
@@ -86,7 +86,7 @@ h1, h2 {
   opacity: 0.4;
   filter: grayscale(0.6);
   background: #f5f5f5;
-  border-color: #e0e0e0;
+  border-color: #4ba2fa;
 }
 
 .ramo.unlocked:hover {
@@ -100,7 +100,7 @@ h1, h2 {
   top: 8px;
   right: 14px;
   font-size: 1.7em;
-  color: #7bc47f;
+  color: #6987f0;
 }
 
 .guia {
