@@ -1,0 +1,40 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f6f3;
+  color: #333;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #b7410e;
+}
+
+.malla {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.ramo {
+  padding: 15px 20px;
+  border: none;
+  border-radius: 6px;
+  background-color: #b7410e;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ramo:hover:not(.bloqueado) {
+  background-color: #99310a;
+}
+
+.ramo.bloqueado {
+  background-color: #ccc;
+  color: #777;
+  cursor: not-allowed;
+  text-decoration: line-through;
+}
