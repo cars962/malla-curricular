@@ -1,6 +1,6 @@
 body {
   font-family: 'Segoe UI', sans-serif;
-  background-color: #f9f6f3;
+  background-color: #fff6f1;
   color: #333;
   padding: 20px;
 }
@@ -13,28 +13,35 @@ h1 {
 .malla {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 12px;
   justify-content: center;
   margin-top: 30px;
 }
 
 .ramo {
-  padding: 15px 20px;
+  padding: 15px 18px;
   border: none;
   border-radius: 6px;
   background-color: #b7410e;
   color: white;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  min-width: 200px;
+  text-align: center;
 }
 
 .ramo:hover:not(.bloqueado) {
-  background-color: #99310a;
+  background-color: #93310c;
 }
 
 .ramo.bloqueado {
-  background-color: #ccc;
+  background-color: #ddd;
   color: #777;
   cursor: not-allowed;
   text-decoration: line-through;
+}
+
+.ramo.aprobado {
+  background-color: #2e8b57;
+  color: white;
 }
